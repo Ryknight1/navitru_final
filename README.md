@@ -25,20 +25,6 @@ This version is a **single-page HTML application**. Its markup, CSS styles, and 
 
 Depending on how the live deployment is configured, additional server-side files may be needed, including `admin.html`, hospital data/API services, and the indoor-navigation page loaded by the application. Those files are not included in this single HTML file.
 
-## How to run locally
-
-1. Download or copy `navitru_final_chatbot.html` to your computer.
-2. Open the file in a modern browser such as Google Chrome, Microsoft Edge, or Firefox.
-3. The page should open without a build step or package installation.
-
-You can also serve the file through a local web server if you prefer. For example, if Python is installed, open a terminal in the folder containing the HTML file and run:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000/navitru_final_chatbot.html` in your browser.
-
 ## External resources
 
 The HTML references external resources, including:
